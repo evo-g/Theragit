@@ -11,5 +11,16 @@ cli for looking4work project
 <!-- toc -->
 # Usage
 <!-- usage -->
+- This cli tool helps you find issues count on any github user repo's
+
+
 # Commands
 <!-- commands -->
+```
+npm install
+```
+
+```
+cli-eg
+```
+- Enter username and any found issues will appear
