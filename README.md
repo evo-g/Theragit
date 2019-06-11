@@ -13,6 +13,15 @@ cli for looking4work project
 <!-- usage -->
 - This cli tool helps you find issues count on any github user repo's
 
+## Environment Variables
+
+Create a `.env` file with the following github credentials in your github account under settings / Developer settings:
+```
+{
+  "CLIENT_SECRET":
+  "CLIENT_ID":
+}
+```
 
 # Commands
 <!-- commands -->

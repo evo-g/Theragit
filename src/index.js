@@ -6,7 +6,7 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 const getIssues = data => data.map(
-  ({name, description, issues_url, open_issues_count, html_url}) => 
+  ({ name, description, issues_url, open_issues_count, html_url }) => 
     ({
       name,
       description,
@@ -14,11 +14,11 @@ const getIssues = data => data.map(
       open_issues_count,
       html_url
     })
-).filter(({open_issues_count}) => {
+).filter(({ open_issues_count }) => {
   return open_issues_count !== 0
 });
 
-const colorizeIssue = ({open_issues_count: count}) => {
+const colorizeIssue = ({ open_issues_count: count }) => {
   switch(true) {
     case count !== 1 && count <= 4:
       return chalk.yellow(count)
