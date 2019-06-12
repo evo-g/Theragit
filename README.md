@@ -1,4 +1,4 @@
-cli-eg
+Theragit 
 ======
 
 cli for looking4work project
@@ -11,7 +11,15 @@ cli for looking4work project
 <!-- toc -->
 # Usage
 <!-- usage -->
+
+```
+npm install
+```
+
 - This cli tool helps you find issues count on any github user repo's
+- Uses GitHub API to find their repos and display any issues count
+- Hope this tool is useful to someone who wants to track their or a fellow coder issues count
+- Only thing missing is tests which I am currently working on 
 
 ## Environment Variables
 
@@ -25,11 +33,9 @@ Create a `.env` file with the following github credentials in your github accoun
 
 # Commands
 <!-- commands -->
-```
-npm install
-```
 
 ```
 cli-eg
 ```
+
 - Enter username and any found issues will appear

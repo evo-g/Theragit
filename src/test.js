@@ -105,7 +105,6 @@ const expected = [{
   description: 'e-commerce store tutorial ',
   issues_url: 'https://api.github.com/repos/evo-g/e-store/issues{/number}',
   open_issues_count: 0,
-  open_issues: 0,
   html_url: 'https://github.com/evo-g/e-store',
 }];
 

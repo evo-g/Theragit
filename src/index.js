@@ -1,4 +1,4 @@
-const {Command, flags} = require('@oclif/command');
+const { Command, flags } = require('@oclif/command');
 const cli = require('cli-ux').default;
 const axios = require('axios');
 const chalk = require('chalk');
