@@ -1,10 +1,10 @@
 {
-  "name": "cli-eg",
+  "name": "theragit",
   "description": "cli for looking4work project",
   "version": "0.0.0",
   "author": " @evo-g",
   "bin": {
-    "cli-eg": "./bin/run"
+    "theragit": "./bin/run"
   },
   "bugs": "https://github.com/evo-g/cli-eg/issues",
   "dependencies": {
@@ -22,7 +22,7 @@
     "eslint": "^5.16.0",
     "eslint-config-oclif": "^3.1.0",
     "mocha": "^5.2.0",
-    "nyc": "^13.3.0"
+    "nyc": "^14.1.1"
   },
   "engines": {
     "node": ">=8.0.0"

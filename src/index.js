@@ -29,7 +29,7 @@ const colorizeIssue = ({ open_issues_count: count }) => {
   };
 };
 
-class CliEgCommand extends Command {
+class TheraGitCommand extends Command {
   async run() {
     const name = await cli.prompt('What is your github username?')
 
@@ -70,14 +70,14 @@ class CliEgCommand extends Command {
   }
 }
 
-// test user with several = nelsonic
+// test user with several open issues = nelsonic
 
-CliEgCommand.description = `Describe the command here
+TheraGitCommand.description = `Describe the command here
 ...
 Look up open issues for any gitHub user
 `
 
-CliEgCommand.flags = {
+TheraGitCommand.flags = {
   // add --version flag to show CLI version
   version: flags.version({char: 'v'}),
   // add --help flag to show CLI version
@@ -86,4 +86,4 @@ CliEgCommand.flags = {
   ...cli.table.flags()
 };
 
-module.exports = CliEgCommand
+module.exports = TheraGitCommand
